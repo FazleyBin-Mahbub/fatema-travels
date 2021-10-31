@@ -5,11 +5,13 @@ const AddOffer = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    axios.post("http://localhost:9000/packages", data).then((res) => {
-      if (res.data.insertedId) {
-        reset();
-      }
-    });
+    axios
+      .post("https://young-fjord-86096.herokuapp.com/packages", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          reset();
+        }
+      });
   };
   return (
     <div className="mt-5 pt-5">

@@ -6,7 +6,7 @@ const Home = () => {
   const [packages, setPackages] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:9000/packages")
+    fetch("https://young-fjord-86096.herokuapp.com/packages")
       .then((res) => res.json())
       .then((data) => setPackages(data));
   }, []);
@@ -48,7 +48,7 @@ const Home = () => {
       <div className="package-card container">
         <Row xs={1} md={3} className="g-4">
           {packages.map((pack) => (
-            <Cart package={pack} />
+            <Cart key={pack._id} package={pack} />
           ))}
         </Row>
       </div>
