@@ -1,0 +1,16 @@
+.cart {
+  height: 80vh;
+  border: none;
+  box-shadow: 1px 1px 10px rgb(212, 219, 217);
+}
+.cart-img {
+  height: 200px;
+}
+
+.details-btn {
+  border: none;
+  background-color: #f76570;
+  padding: 5px 15px;
+  color: whitesmoke;
+  border-radius: 5px;
+}

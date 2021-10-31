@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+div {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-banner {
+  background-image: url("../../images/top-banner.jpg");
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: cover;
+}
+.top-banner h1 {
+  color: #fff;
+  padding-top: 150px;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+.top-banner p {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.top-banner input {
+  outline: none;
+  border: none;
+  padding: 10px 50px;
+  margin-top: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.destination-title {
+  padding-top: 50px;
+  color: rgb(85, 89, 93);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.destination {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 50px;
+  grid-gap: 20px;
+
+  margin-top: 30px;
+}
+
+.destination-bangladesh {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  background-image: url("../../images/Bangladesh.jpg");
+  border-radius: 5px;
+}
+.destination-asia {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-position: center;
+  background-image: url("../../images/asia.jpg");
+}
+.destination-europe {
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../images/europe.jpg");
+}
+.destination-italy {
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  background-image: url("../../images/italy.jpg");
+}
+.destination-singapore {
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../images/singapore.jpg");
+}
+.destination-thailand {
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../images/thailand.jpg");
+}
+
+.destination-bangladesh h1 {
+  padding-top: 370px;
+
+  position: absolute;
+  text-align: start;
+  padding-left: 20px;
+  color: #fff;
+}
+.destination-asia h1 {
+  padding-top: 370px;
+  position: absolute;
+  text-align: start;
+  padding-left: 20px;
+  color: #fff;
+}
+.destination-europe h1 {
+  padding-top: 370px;
+  position: absolute;
+  text-align: start;
+  padding-left: 20px;
+  color: #fff;
+}
+.destination-italy h1 {
+  padding-top: 370px;
+  position: absolute;
+  text-align: start;
+  padding-left: 20px;
+  color: #fff;
+}
+.destination-singapore h1 {
+  padding-top: 370px;
+  position: absolute;
+  text-align: start;
+  padding-left: 20px;
+  color: #fff;
+}
+.destination-thailand h1 {
+  padding-top: 370px;
+  position: absolute;
+  text-align: start;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.packages-title{
+  padding-top: 50px;
+  color: rgb(85, 89, 93);
+  font-weight: 900;
+  text-transform: uppercase;
+}

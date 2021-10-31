@@ -1,0 +1,46 @@
+{
+  "packageDetail": [
+    {
+      "id": "berlin",
+      "name": "Berlin",
+      "desc": "Berlin, Germany’s capital, dates to the 13th century. Reminders of the city's turbulent 20th-century history include its Holocaust memorial and the Berlin Wall's graffitied remains.memorial and the Berlin Wall's graffitied remains.",
+      "price": "700",
+      "img": "https://images.unsplash.com/photo-1552553302-9211bf7f7053?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "desc": "Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is a city and special administrative region of China on the eastern Pearl River Delta in South China",
+      "price": "500",
+      "img": "https://images.unsplash.com/photo-1518599807935-37015b9cefcb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "desc": "San Francisco, officially the City and County of San Francisco, is a cultural, commercial, and financial center in the U.S. state of California.state of California. state of California.state of California.California.",
+      "price": "400",
+      "img": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80"
+    },
+    {
+      "id": "tuscany",
+      "name": "Tuscany",
+      "desc": "Tuscany is a region in central Italy. Its capital, Florence, is home to some of the world’s most recognizable Renaissance art and architecture, including Michelangelo’s David statue,",
+      "price": "750",
+      "img": "https://images.unsplash.com/photo-1552598715-7eeb9232a2ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": "phuket",
+      "name": "Phuket",
+      "desc": "Phuket City, on Phuket Island, is the capital of Thailand’s Phuket Province. In the Old Town, Thalang Road is lined with colorful 19th-century shophouses and Sino-Portuguese buildings.",
+      "price": "1200",
+      "img": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=801&q=80"
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "desc": "Amsterdam is the Netherlands’ capital, known for its artistic heritage, elaborate canal system and narrow houses with gabled facades, legacies of the city’s 17th-century Golden Age. ",
+      "price": "1500",
+      "img": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+    }
+  ]
+}

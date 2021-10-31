@@ -1,0 +1,19 @@
+.package-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.package-tags {
+  padding-left: 30px;
+}
+.package-tags h6 {
+  font-size: 30px;
+}
+.package-tags p {
+  line-height: 2;
+}
+.packageDetail-img {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
