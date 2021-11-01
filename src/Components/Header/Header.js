@@ -29,7 +29,7 @@ const Header = () => {
             </NavLink>
           </div>
           <NavLink style={navStyle} to="/myorders">
-            MyOrders
+            MyBooking
           </NavLink>
 
           <NavLink style={navStyle} to="/about">

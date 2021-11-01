@@ -3,29 +3,22 @@ import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import "./PackageDetails.css";
 const PackageDetails = () => {
-  const { id } = useParams();
-  const [packageDetails, setPackageDetails] = useState([]);
-  const [singlePackageDetails, setSinglePackageDetails] = useState([]);
+  const { _id } = useParams();
+  const [packageDetails, setPackageDetails] = useState({});
+
   // load all the data
   useEffect(() => {
-    fetch("/packageDetails.json")
+    fetch(`http://localhost:5000/packages/${_id}`)
       .then((res) => res.json())
-      .then((data) => setPackageDetails(data.packageDetail));
+      .then((data) => setPackageDetails(data));
   }, []);
 
-  // load sing data
-  useEffect(() => {
-    const showPackageDetail = packageDetails.find(
-      (packageDetail) => packageDetail.id === id
-    );
-    setSinglePackageDetails(showPackageDetail);
-  }, [packageDetails]);
   return (
-    <div className="">
+    <div>
       <div className="package-detail">
         <div className="col-md-6 col-sm-12 text-start package-tags">
-          <h6 className="fw-bolder">{singlePackageDetails?.name}</h6>
-          <p className="text-muted fw-bolder">{singlePackageDetails?.desc}</p>
+          <h6 className="fw-bolder">{packageDetails?.name}</h6>
+          <p className="text-muted fw-bolder">{packageDetails?.desc}</p>
           <Link to="/myorders">
             <button className="book-now-btn fw-bolder rounded-2">
               Book Now
@@ -33,11 +26,7 @@ const PackageDetails = () => {
           </Link>
         </div>
         <div className="col-md-6 col-sm-12">
-          <img
-            className="packageDetail-img"
-            src={singlePackageDetails?.img}
-            alt=""
-          />
+          <img className="packageDetail-img" src={packageDetails?.img} alt="" />
         </div>
       </div>
     </div>

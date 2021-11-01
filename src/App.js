@@ -38,7 +38,7 @@ function App() {
             <Route exact path="/addoffer">
               <AddOffer></AddOffer>
             </Route>
-            <Route exact path="/details/:id">
+            <Route exact path="/details/:_id">
               <PackageDetails></PackageDetails>
             </Route>
             {/* login route */}

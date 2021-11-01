@@ -3,7 +3,7 @@ import { Card, Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "./Cart.css";
 const Cart = (props) => {
-  const { img, name, desc, price, id } = props.package;
+  const { img, name, desc, price, _id } = props.package;
   return (
     <Col>
       <Card className="cart">
@@ -15,7 +15,7 @@ const Cart = (props) => {
             {price}
             <span>$</span>
           </Card.Text>
-          <NavLink to={`/details/${id}`}>
+          <NavLink to={`/details/${_id}`}>
             <button className="details-btn fw-bolder">Details</button>
           </NavLink>
         </Card.Body>

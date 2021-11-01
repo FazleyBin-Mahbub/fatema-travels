@@ -6,7 +6,7 @@ const Home = () => {
   const [packages, setPackages] = useState([]);
 
   useEffect(() => {
-    fetch("https://young-fjord-86096.herokuapp.com/packages")
+    fetch("http://localhost:5000/packages")
       .then((res) => res.json())
       .then((data) => setPackages(data));
   }, []);

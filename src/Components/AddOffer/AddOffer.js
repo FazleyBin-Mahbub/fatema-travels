@@ -6,7 +6,7 @@ const AddOffer = () => {
   const onSubmit = (data) => {
     console.log(data);
     axios
-      .post("https://young-fjord-86096.herokuapp.com/packages", data)
+      .post("http://localhost:5000/packages", data)
       .then((res) => {
         if (res.data.insertedId) {
           reset();
