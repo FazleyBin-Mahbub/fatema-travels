@@ -6,7 +6,7 @@ const PackageDetails = () => {
   const { _id } = useParams();
   const [packageDetails, setPackageDetails] = useState({});
 
-  // load all the data
+  // load single data
   useEffect(() => {
     fetch(`http://localhost:5000/packages/${_id}`)
       .then((res) => res.json())

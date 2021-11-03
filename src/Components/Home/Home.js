@@ -42,6 +42,11 @@ const Home = () => {
       </div>
       {/* destination end  */}
 
+      {/* holiday  */}
+      <div className="next-holiday">
+        <h1>Your Next Holiday</h1>
+        <button>View All Packages</button>
+      </div>
       {/* packages add  */}
 
       <h1 className="packages-title">Our Packages</h1>
@@ -51,6 +56,20 @@ const Home = () => {
             <Cart key={pack._id} package={pack} />
           ))}
         </Row>
+      </div>
+      {/* discover */}
+
+      <div className="discover">
+        <div className="discover-cities">
+          <p>01. LAST MINUTE</p>
+          <h1>Discover Cities</h1>
+          <button>Details</button>
+        </div>
+        <div className="discover-nature">
+          <p>02. PROMOTIONS</p>
+          <h1>Discover Nature</h1>
+          <button>Details</button>
+        </div>
       </div>
     </div>
   );

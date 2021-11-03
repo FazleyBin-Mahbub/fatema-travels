@@ -14,10 +14,10 @@ const Header = () => {
     fontSize: "17px",
   };
   return (
-    <Navbar className="p-2 nav-bg" fixed="top">
+    <Navbar className="nav-bg" fixed="top">
       <Container>
         <Link to="/home">
-          <img className="w-25" src={image} alt="" />
+          <img className="logo" src={image} alt="" />
         </Link>
       </Container>
       {/* navbar links  */}
